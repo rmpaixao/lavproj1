@@ -17,7 +17,6 @@ Route::get('/produtos', function () {
 
 Route::get('/produtos/{id}', function ($id = null) {
     return view('product', ['id' => $id]);
-    echo 'a';
 });
 
 
